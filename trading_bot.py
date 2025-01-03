@@ -1,8 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[5]:
-
 
 import pandas as pd
 from binance.client import Client
@@ -14,8 +9,8 @@ import requests
 from plyer import notification
 
 symbol ='BTCUSDT'
-API_KEY = 'msm5lEZ9CalX1FbbfJCxqk2eJ1PyHL84lBAGHsSORGf9V8pUtMormnQtMsBoiIMI'
-API_SECRET = 'bdGRws6OVLqXdzfe8BXBIt3Jf7wt67KPYHRTCcONdCvaKbooJzbo8waVvjZ2wKR7'
+API_KEY = '****'
+API_SECRET = '*****'
 url= 'https://api.alternative.me/fng/?limit=2'
 
 client = Client(API_KEY,API_SECRET,testnet=True)
